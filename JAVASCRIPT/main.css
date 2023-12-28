@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+body{
+    background: #edeaff;
+    font-family: 'Courier Prime', monospace;
+font-family: 'Poppins', sans-serif;
+
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyCDY_cgSV9lnOrAfUx-T-3iADvKJlXw5OgXlDzNglMA&s);
+    background-size: center;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin:  200px auto 0;
+    box-shadow: 0 10px 10px rgba(44, 41, 41, 0.2);
+}
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.buttons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons i{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
